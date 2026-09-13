@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuarezBus - Login/Sign in</title>
+        <link rel="shortcut icon" href="images/JuarezBus_logo.webp">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form action="" id="form_registro">
+            <div id="Contenerdor_log_in_y_registro">
+                <div id="logo">
+                    <img id="juarezbus_logo" src="images/JuarezBus_logo.webp" alt="">
+                </div>
+                <h2>
+                    Formulario de registro
+                </h2>
+            <label for="nombre">
+                Ingresa tu nombre completo
+            </label>
+            <input type="text" id="nombre">
+            <label for="edad">
+                Ingresa tu edad
+            </label>
+            <input type="number" id="edad">
+            <label for="estudiante">
+                ¿Eres estudiante?
+            </label>
+
+            <label>
+            <input type="radio" name="estudiante" value="Si">
+                Sí
+            </label>
+
+            <label>
+            <input type="radio" name="estudiante" value="No">
+                No
+            </label>
+            <label for="correo">
+                Ingresa un correo electronico
+            </label>
+            <input type="email" id="correo">
+            <label for="contraseña">
+                Ingresa tu contraseña
+            </label>
+            <input type="password" id="contraseña">
+            <input type="submit" value="Registrarse">
+            <div id="mensaje_registro"></div>
+            <a id="link_nav" href="index.html">
+                ¿Continuar sin cuenta? Volver a inicio
+            </a>
+            </div>
+        </form>
+<script src="registro.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#link_nav{
+    text-decoration: none;
+    color: #D60042;
+}
+
+#contenedor_navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+#juarezbus_logo{
+    width: 200px;
+}
+
+#shortcut_planificar_ruta{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("images/JrzBus.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+    min-height: 400px;
+}
+
+#boton_planificar{
+    display: inline-block;
+    background-color: #D60042;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+#Contenerdor_log_in_y_registro{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#Contenerdor_log_in_y_registro input{
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+#Contenerdor_log_in_y_registro input:focus {
+    outline: none;
+    border-color: #d6006e; 
+    box-shadow: 0 0 0 3px rgba(214, 0, 110, 0.15);
+}
+
+#Contenerdor_log_in_y_registro input[type="submit"] {
+    background-color: #d6006e;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#Contenerdor_log_in_y_registro input[type="submit"]:hover {
+    background-color: #a80057;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor_saldo_e_imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contenedor_saldo_e_imagen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+#consultar_saldo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#consultar_saldo input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#consultar_saldo input[type="submit"] {
+    background-color: #d6006e;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#consultar_saldo input[type="submit"]:hover {
+    background-color: #a80057;
+}
+
+#contenedor_imagen_tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#pie_pagina {
+    background-color: #1a1a2e; /* un azul oscuro que combine con tu paleta */
+    padding: 40px 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#logo img {
+    height: 60px;
+    width: auto;
+}
+
+#informacion_estudiante {
+    color: #ffffff;
+    text-align: right;
+}
+
+#informacion_estudiante p {
+    margin: 4px 0;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+#informacion_estudiante p:first-child {
+    font-weight: bold;
+    opacity: 1;
+    font-size: 15px;
+}
+
+#pie_pagina {
+    border-top: 3px solid #d6006e; /* el rosa de tu marca, como acento */
+}
+
+#contenedor_reporte_e_imagen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+#formulario_reporte {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#formulario_reporte input[type="text"],
+#formulario_reporte input[type="number"],
+#formulario_reporte textarea {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+#formulario_reporte textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#formulario_reporte input[type="submit"] {
+    background-color: #d6006e;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#formulario_reporte input[type="submit"]:hover {
+    background-color: #a80057;
+}
+
+#contenedor_imagen_reporte img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
