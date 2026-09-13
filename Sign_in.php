@@ -47,7 +47,7 @@
             <input type="password" id="contraseña">
             <input type="submit" value="Registrarse">
             <div id="mensaje_registro"></div>
-            <a id="link_nav" href="index.html">
+            <a id="link_nav" href="index.php">
                 ¿Continuar sin cuenta? Volver a inicio
             </a>
             </div>

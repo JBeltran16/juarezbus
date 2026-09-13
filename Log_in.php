@@ -25,7 +25,7 @@
             <input type="password" id="contrasena_login">
             <input type="submit" value="Iniciar sesion">
             <div id="mensaje_login"></div>
-            <a id="link_nav" href="Sign_in.html">
+            <a id="link_nav" href="Sign_in.php">
                 ¿No tienes cuenta? registrate
             </a>
             </div>

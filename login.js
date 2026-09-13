@@ -21,7 +21,7 @@ document.getElementById('form_login').addEventListener('submit', async function(
             mensajeDiv.textContent = `Bienvenido, ${data.nombre}`;
             mensajeDiv.style.color = 'green';
             setTimeout(() => {
-                window.location.href = 'index.html';
+                window.location.href = 'index.php';
             }, 1000);
         } else {
             mensajeDiv.textContent = data.error;

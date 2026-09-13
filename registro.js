@@ -32,7 +32,7 @@ document.getElementById('form_registro').addEventListener('submit', async functi
             mensajeDiv.style.color = 'green';
             // Opcional: redirigir al login después de 1.5 segundos
             setTimeout(() => {
-                window.location.href = 'Log_in.html';
+                window.location.href = 'Log_in.php';
             }, 1500);
         } else {
             mensajeDiv.textContent = data.error;
